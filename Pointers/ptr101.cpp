@@ -23,7 +23,7 @@ int main(){
     //                                         ptr = &n:          ok
     //                                         ptr = n:           not ok
 
-    cout << n << endl;
+    cout << n + 1<< endl;
 
     return 0;
 }
