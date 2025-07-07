@@ -12,7 +12,7 @@ int main(){
     cout << uPtr1 << endl;
     unique_ptr<int> uPtr2 = std::move(uPtr1); // for some reason the compiler prefers std:: specified
     cout << uPtr2 << endl;
-    cout << uPtr1 << endl;
+    // cout << *uPtr1 << endl; // this now gives seg fault because the memory us pointing to null '0x0'
 
     return 0;
 }
