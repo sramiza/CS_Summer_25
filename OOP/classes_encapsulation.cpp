@@ -28,6 +28,14 @@ public:
         }
     }
 
+    void get(){
+        cout << channelName;
+    }
+
+    void set(string name){
+        channelName = name;
+    }
+
     void subscribe(){
         subscribers++;
     }
