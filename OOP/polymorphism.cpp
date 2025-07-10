@@ -83,8 +83,8 @@ int main(){
     abel.Premier();
     
     SportsYtChannel athelticInterest("Athletic Interest", "Novak Bjorn", "Russia");
-    abel.addVideo("The Economics of Chess");
-    abel.Premier();
+    athelticInterest.addVideo("The Economics of Chess");
+    athelticInterest.Premier();
     
     return 0;
 }
