@@ -78,6 +78,24 @@ int main(){
     // ksi.subscribe();
     // ksi.getInfo();
 
+    //revising dynamic arrays jfthoi
+    int size;
+    
+    cout << "Enter Size: ";
+    cin >> size;
+
+    int *newArr = new int[size];
+
+    for (int i = 0; i < size; i++){
+        cout << "Enter an integer: ";
+        cin >> newArr[i];
+    }
+
+    for (int i = 0; i < size; i++){
+        cout << newArr[i] << endl;
+        ;
+    }
+
     MusicYtChannel abel("The Weeknd", "Abel Tesfaye", "Canada");
     abel.addVideo("Call Out My Name");
     abel.Premier();
