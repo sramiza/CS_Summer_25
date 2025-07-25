@@ -15,13 +15,12 @@ public:
 };
 
 void printProperties(EquilateralTriangle triangle){
-    cout << "Area: " << 0.5 * triangle.l * triangle.l << endl; // 0.5 not 1/2 because 1/2 = 0, 1/2.0 = 0.5
+    cout << "Area: " << sqrt(3)/4.0 * triangle.l * triangle.l << endl; // 0.5 not 1/2 because 1/2 = 0, 1/2.0 = 0.5
     cout << "Perimeter: " << 3 * triangle.l << endl;
 };
 
 int main()
 {
-
     EquilateralTriangle triangle;
     triangle.setL(5);
     printProperties(triangle);
