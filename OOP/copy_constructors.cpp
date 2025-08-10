@@ -34,6 +34,7 @@ public:
     }
 
     //copy constructor: custom required because of use of pointers/dynamic array
+    //used when creating a new object
     Book(const Book& original){
         name = original.name;
         author = original.author;
